@@ -13,7 +13,7 @@ export default class index extends Component {
       { name: 'Yonnect, Total management system', link: '/yonnect', des: 'Yonnect, the flagship project of Eletive, was a groundbreaking startup initiative. Our primary goal was to create a robust and consistent platform from scratch, given the immense scale of the project.', img: '/assets/work/yonnect.png' },
       { name: 'Zitop, O2O fashion App', link: '/zitop', des: 'I worked with an Elitive company team on a two-month project to design an app aimed at solving fashion industry challenges, especially for buyers. We focused on creating both aesthetically pleasing and practical solutions to improve the experience for stakeholders and consumers.', img: '/assets/work/zitop.png' },
       { name: '3Dot Plus, e-commerce marketplace', link: '/3dotplus', des: 'An app for Iranian-Canadian citizens to connect with their heritage and community, offering a guide to Persian cultural events and a directory of Iranian-Canadian businesses. It enables users to discover, connect, and support cultural and entrepreneurial activities, enhancing their community and cultural identity.', img: '/assets/3dotplus/1.png' },
-  ]
+    ]
   }
 
   render() {
