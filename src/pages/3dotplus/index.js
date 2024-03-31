@@ -127,10 +127,10 @@ export default class index extends Component {
                             <p className='text-base pt-5 text-gray-800 dark:text-gray-200'>It was mentioned for the first time in 1892 in English literature as an Iranian color. As you know, many people believe in the colors' spiritual meanings and symbolism. In Iranian art, turquoise color combinations symbolize paradise and lively gardens, sanctity, and spirituality.</p>
                         </div>
                         <div className='grid grid-cols-5 gap-10 mt-20'>
-                            <div className='col-span-2'>
-                                <img className='rounded-2xl h-[420px]' src='/assets/3dotplus/color.png' />
+                            <div className='col-span-5 sm:col-span-2'>
+                                <img className='rounded-2xl h-full' src='/assets/3dotplus/color.png' />
                             </div>
-                            <div className='col-span-3'>
+                            <div className='col-span-5 sm:col-span-3'>
                                 <div className='grid grid-cols-3 gap-10'>
                                     {this.state.colors.map((prop, index) => {
                                         return (

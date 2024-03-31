@@ -43,23 +43,23 @@ export default class index extends Component {
                                     <div className='border-l ps-5 pt-5 pb-10 ms-[2.5px] border-gray-700'>
                                         <div className='flexc'>
                                             <div className='w-2 h-2 bg-gray-950 dark:bg-gray-300 rounded-full me-4'></div>
-                                            <p className='font-semibold text-gray-950 dark:text-gray-50 text-lg'>Frontend Developer</p>
-                                        </div>
-                                        <p className='font-light text-gray-700 text-sm'>Nov 2022 - Dec 2023 | 1 yr 2 mos</p>
-                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-10'>During my time at Elitive, one persistent problem they faced was the absence of a frontend programmer who paid attention to every detail of the design. This was crucial to ensure that the considerable effort invested in the design wouldn't go to waste. They were in need of someone who could implement the design exactly as it was supposed to be. I stepped in and took on the responsibility to fill the position they had been searching for.</p>
-                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-5'>1.Developed and implemented user-friendly interfaces for web applications, focusing on responsiveness and cross-device compatibility.</p>
-                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-5'>2.Utilized HTML, CSS, JavaScript, and React alongside frameworks like AntD and Bootstrap to build front-end experiences that align with modern design principles.</p>
-                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-5'>3.Worked closely with the product and development teams to transition designs from concept to functionality, optimizing user flows and ensuring seamless integration.</p>
-                                    </div>
-                                    <div className='border-l ps-5 pt-5 pb-10 ms-[2.5px] border-gray-700'>
-                                        <div className='flexc'>
-                                            <div className='w-2 h-2 bg-gray-950 dark:bg-gray-300 rounded-full me-4'></div>
                                             <p className='font-semibold text-gray-950 dark:text-gray-50 text-lg'>Product Designer</p>
                                         </div>
-                                        <p className='font-light text-gray-700 text-sm'>Oct 2021 - Dec 2023 | 2 yr 3 mos</p>
-                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-10'>1.Led UI/UX design projects, creating wireframes, interactive prototypes, and high-fidelity designs using Figma and Adobe suite, enhancing user experience and interface design.</p>
-                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-5'>2.Collaborated with cross-functional teams to refine and implement design concepts, focusing on user-centered design processes and responsive design principles.</p>
-                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-5'>3.Maintained and applied design documentation, ensuring consistency and coherency across all product interfaces.</p>
+                                        <p className='font-light text-gray-700 text-sm'>Nov 2022 - Dec 2023 | 1 yr 2 mos</p>
+                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-4'>1.Lead the development of accessible interfaces, conducting user research to ensure designs meet diverse needs.</p>
+                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-4'>2.Work with engineers, product managers, and accessibility experts to align designs with project goals.</p>
+                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-4'>3.Innovate and iterate on design solutions that enhance adaptability and personalization for users.</p>
+                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-4'>4.Develop and implement design strategies, ensuring timely delivery of high-quality design deliverables.</p>
+                                    </div>
+                                    <div className='border-l ps-5 pt-5 ms-[2.5px] border-gray-700'>
+                                        <div className='flexc'>
+                                            <div className='w-2 h-2 bg-gray-950 dark:bg-gray-300 rounded-full me-4'></div>
+                                            <p className='font-semibold text-gray-950 dark:text-gray-50 text-lg'>UI/UX Designer</p>
+                                        </div>
+                                        <p className='font-light text-gray-700 text-sm'>Oct 2021 - Nov 2022 | 2 yr 3 mos</p>
+                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-4'>1.Led UI/UX design projects, creating wireframes, interactive prototypes, and high-fidelity designs using Figma and Adobe suite, enhancing user experience and interface design.</p>
+                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-4'>2.Collaborated with cross-functional teams to refine and implement design concepts, focusing on user-centered design processes and responsive design principles.</p>
+                                        <p className=' text-gray-950 dark:text-gray-50 text-sm mt-4'>3.Maintained and applied design documentation, ensuring consistency and coherency across all product interfaces.</p>
                                     </div>
                                 </div>
                                 <div className='mt-20'>
@@ -69,8 +69,8 @@ export default class index extends Component {
                                         <div className='w-2 h-2 bg-gray-950 dark:bg-gray-300 rounded-full mx-4'></div>
                                         <p className='font-semibold text-gray-950 dark:text-gray-50 text-lg'>Web User Interface Designer</p>
                                     </div>
-                                    <div className='border-l ps-5 pb-10 ms-[2.5px] border-gray-700'>
-                                        <p className='font-light text-gray-700 text-sm'>Oct 2021 - Dec 2023 | 2 yr 3 mos</p>
+                                    <div className='border-l ps-5 ms-[2.5px] border-gray-700'>
+                                        <p className='font-light text-gray-700 text-sm'>Sep 2020 - Oct 2021 | 1 yr 2 mos</p>
                                         <p className=' text-gray-950 dark:text-gray-50 text-sm mt-10'>1.Spearheaded the development of a cohesive branding strategy through the design of graphical frames for social media and web interfaces.</p>
                                         <p className=' text-gray-950 dark:text-gray-50 text-sm mt-5'>2.Designed responsive UIs that adapt to various screen sizes, improving accessibility and user engagement.</p>
                                         <p className=' text-gray-950 dark:text-gray-50 text-sm mt-5'>3.Contributed to team knowledge sharing by staying abreast of the latest UI/UX trends, techniques, and best practices.</p>
@@ -83,7 +83,7 @@ export default class index extends Component {
                                         <div className='w-2 h-2 bg-gray-950 dark:bg-gray-300 rounded-full mx-4'></div>
                                         <p className='font-semibold text-gray-950 dark:text-gray-50 text-lg'>Intern Architect</p>
                                     </div>
-                                    <div className='border-l ps-5 pb-10 ms-[2.5px] border-gray-700'>
+                                    <div className='border-l ps-5 ms-[2.5px] border-gray-700'>
                                         <p className='font-light text-gray-700 text-sm'>Aug 2019 - Sep 2020 | 1 yr 2 mos</p>
                                         <p className=' text-gray-950 dark:text-gray-50 text-sm mt-10'>1.Supported the architectural team in the design development phase by creating detailed drawings, 3D models, and renderings using AutoCAD and 3Ds Max.</p>
                                         <p className=' text-gray-950 dark:text-gray-50 text-sm mt-5'>2.Assisted in conducting site visits to document existing conditions and gather essential data for ongoing projects.</p>

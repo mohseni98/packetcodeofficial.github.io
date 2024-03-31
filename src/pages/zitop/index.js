@@ -129,10 +129,10 @@ export default class index extends Component {
                             <p className='text-base pt-5 text-gray-800 dark:text-gray-200'>An Iconic Palette of shades with on accent color inspired by Merlin Monroe's with a splash of vibrant red lipstick</p>
                         </div>
                         <div className='grid grid-cols-5 gap-10 mt-20'>
-                            <div className='col-span-2'>
-                                <img className='rounded-2xl' src='/assets/zitop/merlin.png' />
+                            <div className='sm:col-span-2 col-span-5'>
+                                <img className='rounded-2xl h-full object-cover' src='/assets/zitop/merlin.png' />
                             </div>
-                            <div className='col-span-3'>
+                            <div className='sm:col-span-3 col-span-5'>
                                 <div className='grid grid-cols-3 gap-10'>
                                     {this.state.colors.map((prop, index) => {
                                         return (
