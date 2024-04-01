@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3067",
-    "build": "next build 3067",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,7 +12,6 @@
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.1.1",
     "autoprefixer": "10.4.14",
-    "bcryptjs": "^2.4.3",
     "embla-carousel-autoplay": "^8.0.0-rc12",
     "embla-carousel-class-names": "^8.0.0-rc12",
     "embla-carousel-react": "^8.0.0-rc12",
