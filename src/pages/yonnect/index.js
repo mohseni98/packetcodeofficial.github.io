@@ -1,6 +1,7 @@
 import { LockClosedIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
 import React, { Component } from 'react'
 
+
 export default class index extends Component {
     state = {
         password: '',
@@ -144,7 +145,7 @@ export default class index extends Component {
                                     <p className='mt-10 text-gray-800 dark:text-gray-200'>Unify your world with a single app—seamlessly managing your business, education, and personal life. Experience the ease of handling diverse needs, from projects to classes, all in one place.</p>
                                 </div>
                                 <div className='flexcc'>
-                                    <img className='h-[500px]' src='/assets/yonnect/landing.png' />
+                                    <img className='h-Full' src='/assets/yonnect/landing.png' />
                                 </div>
                             </div>
                         </div>
@@ -353,7 +354,7 @@ export default class index extends Component {
                         <div className='py-20 bg-white dark:bg-gray-1000'>
                             <div className='max-w-5xl mx-auto px-5 lg:px-0'>
                                 <p className='text-2xl pb-5 text-gray-800 dark:text-gray-200'>Widgets designs</p>
-                                <div className='columns-4 gap-5'>
+                                <div className='columns-2 md:columns-4 gap-5'>
                                     {this.state.widgets.map((prop, index) => {
                                         return (
                                             <div className='mb-5'>
@@ -381,7 +382,7 @@ export default class index extends Component {
                                         )
                                     })}
                                 </div>
-                                <div className='columns-4 gap-5 mt-10'>
+                                <div className='columns-2 md:columns-4 gap-5 mt-10'>
                                     {this.state.messenger2.map((prop, index) => {
                                         return (
                                             <div className='flexcc flex-col bg-gray-100 dark:bg-gray-900 rounded-xl p-2 break-inside-avoid mb-5'>
