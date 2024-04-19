@@ -74,7 +74,7 @@ class Modal extends React.Component {
             return (
                 <div className={'transition-all fixed w-full h-[100vh] z-50 top-0 left-0 overflow-hidden ' + (this.state.closing ? 'transition-all duration-500 bg-transparent backdrop-blur-0 bg-opacity-0' : 'bg-white dark:bg-black bg-opacity-80 backdrop-blur-lg transition-all duration-500')} onClick={() => this.hideModal()}>
                     <div onScroll={() => this.onScroll()} className={"relative transition-all duration-500 m-auto w-full overflow-auto max-h-full mt-20 justify-center flex " + (this.state.closing ? 'opacity-0' : 'opacity-100')} style={{ paddingBottom: 100 }} onClick={() => this.hideModal()}>
-                        <div className="w-full" style={{ maxWidth: this.state.maxWidth, marginTop: '50%', }} onClick={(e) => e.stopPropagation()}>
+                        <div className="w-full" style={{ maxWidth: this.state.maxWidth, marginTop: '10%', }} onClick={(e) => e.stopPropagation()}>
                             {this.props.children}
                         </div>
                     </div>

@@ -9,10 +9,14 @@ class Header1 extends Component {
   }
 
   openMenuModal = () => {
-    
+
     this.menuModal.showModal()
   }
 
+
+  closeMenuModal = () => {
+    this.menuModal.hideModal();
+  }
 
 
   render() {
@@ -54,18 +58,20 @@ class Header1 extends Component {
         </div>
         <Modal ref={el => this.menuModal = el} maxWidth={300}>
           <div className='flexcc flex-col p-10 h-full'>
-            <Link href='/work' className='group flexcc transition-all mb-16'>
-              <p className='text-gray-950 dark:text-gray-50 font-semibold text-2xl select-none group-hover:text-blue-600 group-hover:dark:text-blue-400'>Work</p>
-            </Link>
-            <Link href='/gallery' className='group flexcc transition-all mb-16'>
+            <button >
+              <Link href='/work' className='group flexcc transition-all mb-16' onClick={this.closeMenuModal}>
+                <p className='text-gray-950 dark:text-gray-50 font-semibold text-2xl select-none group-hover:text-blue-600 group-hover:dark:text-blue-400'>Work</p>
+              </Link>
+            </button>
+            <Link href='/gallery' className='group flexcc transition-all mb-16' onClick={this.closeMenuModal}>
               <p className='text-gray-950 dark:text-gray-50 font-semibold text-2xl select-none group-hover:text-blue-600 group-hover:dark:text-blue-400'>Gallery</p>
             </Link>
-            <Link href='/about' className='group flexcc transition-all mb-16'>
+            <Link href='/about' className='group flexcc transition-all mb-16' onClick={this.closeMenuModal}>
               <p className='text-gray-950 dark:text-gray-50 font-semibold text-2xl select-none group-hover:text-blue-600 group-hover:dark:text-blue-400'>About</p>
             </Link>
-            <Link href='/resume' className='group flexcc flex-col transition-all px-16 rounded-full py-4 hover:bg-blue-600 hover:border-transparent hover:dark:border-transparent border border-gray-950 dark:border-gray-50'>
+            {/* <Link href='/resume' className='group flexcc flex-col transition-all px-16 rounded-full py-4 hover:bg-blue-600 hover:border-transparent hover:dark:border-transparent border border-gray-950 dark:border-gray-50' onClick={this.closeMenuModal}>
               <p className='text-gray-950 dark:text-gray-50 font-semibold text-2xl select-none group-hover:text-gray-50'>Resume</p>
-            </Link>
+            </Link> */}
           </div>
         </Modal>
       </div>
