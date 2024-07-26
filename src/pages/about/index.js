@@ -31,7 +31,7 @@ export default class index extends Component {
                         </div>
                         <div className='col-span-3 md:col-span-2'>
                             <div className='bg-white dark:bg-gray-1000 p-8 rounded-3xl'>
-                                <img className='rounded-xl h-96' src='/assets/resume/1v1.png' />
+                                <img className='rounded-xl h-96' src='/assets/resume/1.jpg' />
                                 <p className='font-PlayfairDisplay text-3xl pt-10 text-gray-900 dark:text-gray-100'><span className='italic'>Hi there,</span> I'm Gedrich</p>
                                 <p className='pt-4 text-sm text-gr text-gray-900 dark:text-gray-100'>Just a little bit about me — I'm a Graduated Student from Architectural Design, based in Toronto.</p>
                                 <p className='pt-4 text-sm text-gr text-gray-900 dark:text-gray-100'>For the longest time, art has been a pillar of my life. From sketching to Architecture to graphics to photography and now product design, each of these mediums are linked by a common thread: the power of a story. While the creator’s story and emotion shape these art forms, product design enables me to illuminate stories of people across the world.</p>

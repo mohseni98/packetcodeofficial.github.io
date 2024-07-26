@@ -354,11 +354,11 @@ export default class index extends Component {
                         <div className='py-20 bg-white dark:bg-gray-1000'>
                             <div className='max-w-5xl mx-auto px-5 lg:px-0'>
                                 <p className='text-2xl pb-5 text-gray-800 dark:text-gray-200'>Widgets designs</p>
-                                <div className='columns-2 md:columns-4 gap-5'>
+                                <div className='columns-2 md:columns-4 gap-2'>
                                     {this.state.widgets.map((prop, index) => {
                                         return (
-                                            <div className='mb-5'>
-                                                <img src={prop.img} />
+                                            <div className='mb-2'>
+                                                <img className=' bg-gray-100 dark:bg-gray-900 rounded-3xl p-2' src={prop.img} />
                                             </div>
                                         )
                                     })}
